@@ -15,6 +15,8 @@ var characterCount;
 
 
 function confirmCriteria() {
+    alert("Welcome to the Password Generator - Lets begin by clicking OK!")
+
     characterCount = prompt("Please enter length of your password ; between 8 and 128 charcters.");
     // confirm count is atleast 8 and no more than 128 characters or alert user
       if (characterCount < 8 || characterCount > 128 ) {
