@@ -80,12 +80,12 @@ header {
   clear: both;
 }
 
-button {
+  #generate {
   border: none;
   background-color: rgb(8, 22, 117);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -94,6 +94,7 @@ button {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  
 }
 
 /* button {
